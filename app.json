@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "msakns",
+    "slug": "msakns",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-dev-client"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.nabeel_arshad.msakns"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "msakns",
+      "shortName": "msakns",
+      "themeColor": "#ffffff",
+      "backgroundColor": "#ffffff",
+      "display": "standalone",
+      "scope": "/",
+      "startUrl": "/"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fef18418-bb35-41ac-b9d9-5a5657005449"
+      }
+    },
+    "owner": "nabeel_arshad"
+  }
+}
